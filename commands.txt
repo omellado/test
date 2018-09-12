@@ -1,0 +1,77 @@
+    1  clear
+    2  ls
+    3  ll
+    4  cd ~/
+    5  pwd
+    6  ll
+    7  mkdir Practicas
+    8  clear
+    9  cd practicas
+   10  cd Practicas
+   11  ll
+   12  clear
+   13  exit
+   14  ls
+   15  pwd
+   16  cd Practicas
+   17  clear
+   18  su root -
+   19  exit
+   20  java
+   21  clear
+   22  ls
+   23  exit
+   24  ls
+   25  cd Practicas
+   26  ls
+   27  ll
+   28  clear
+   29  vi helloWorld.java
+   30  jls
+   31  ls
+   32  java helloWorld.java
+   33  vi helloWorld.java
+   34  javac helloWorld.java
+   35  ls
+   36  java helloWorld
+   37  sudo root -
+   38  exit
+   39  ls
+   40  exit
+   41  cd ~/
+   42  ls
+   43  mkdir Pruebas
+   44  ls
+   45  cd Pruebas
+   46  ls
+   47  clear
+   48  git config --list
+   49  git config --global user.name "oscar"
+   50  git config --global user.email "omellado9@gmail.com"
+   51  git config --list
+   52  cat /etc/m
+   53  cat /etc/motd >> README.md
+   54  cat README.md
+   55  git init
+   56  ls
+   57  clear
+   58  git remote add origin https://github.com/oscar/pruebas.git
+   59  ls
+   60  git add README.md
+   61  git commit -m "Repositorio de Prueba 1st commit"
+   62  ls
+   63  ls -la
+   64  git push -u origin master
+   65  ls
+   66  git config --list
+   67  rm -r .git/
+   68  ll -la
+   69  git init
+   70  git remote add origin https://github.com/omellado/test.git
+   71  git add README.sh
+   72  git add README.md
+   73  git commit -m "Repositorio test 1st commit"
+   74  git push -u origin master
+   75  git branch -a
+   76  git checkout -b commands
+   77  history >> commands.txt
